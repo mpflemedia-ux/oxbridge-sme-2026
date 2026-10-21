@@ -866,7 +866,7 @@ document.querySelectorAll('[data-orientation="vertical"].border-b').forEach(func
 function setItem(item,open){var s=open?'open':'closed',btn=item.querySelector('h3 > button'),reg=item.querySelector('[role="region"]');if(!btn||!reg||item.classList.contains('acc-empty'))return;
  item.setAttribute('data-state',s);item.querySelector('h3').setAttribute('data-state',s);btn.setAttribute('data-state',s);btn.setAttribute('aria-expanded',String(open));reg.setAttribute('data-state',s);reg.hidden=!open;}
 /* ---- enquiry form -> WhatsApp ---- */
-var WA='60135999090',form=document.querySelector('form[aria-label]');
+var WA='60183212669',form=document.querySelector('form[aria-label]');
 var errs={};
 function showErr(el,k){el.setAttribute('aria-invalid',k?'true':'false');var id=el.id+'-err',p=document.getElementById(id);
  if(!k){if(p)p.remove();el.removeAttribute('aria-describedby');delete errs[el.id];return;}
